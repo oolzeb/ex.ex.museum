@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>exex.museum</title>
+	<style type="text/css">
+
+	*  {font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;}
+	 @font-face {
+    font-family: 'Hahmlet-Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Hahmlet-Black.woff2') format('woff2');}
+
+    nav{background: white; height: 50px; }
+    nav ol,li{margin: auto; padding: 0; width: 1000px; height: 70px; }
+    nav li{list-style-type: none; width: 20%;float: left ; height: 70px;text-align: center; line-height: 100px;}
+		a{display: block;  width: 150px; height: 70px; 
+           margin: 20px;
+           margin-top: 11px;
+     
+			 text-align: center; line-height: 60px;text-decoration: none;  
+			color: black; font-size: 1em;}
+
+    h1 { width: 500px;text-align: center; font-size: 1.3em; margin: auto; line-height: 40px; word-break: keep-all; padding-top: 220px;}
+    h2 { width: 600px;text-align: center; font-size: 1.3em; margin: auto; line-height: 40px; word-break: keep-all; padding-top: 40px;}
+    h3 { width: 800px;text-align: center; font-size: 1.5em; margin: auto; line-height: 40px; word-break: keep-all; padding-top: 40px; color: white;}
+    h4 {width: 700px; text-align: left; font-size: 8em; font-weight: 900; word-break: keep-all; font-family: 'Hahmlet-Black'; margin: 20px}
+    .deer {width: 700px; text-align: right; font-size: 5.7em; font-weight: 900; word-break: keep-all; font-family: 'Hahmlet-Black'; margin: 20px;
+    	padding-left: 280px; padding-top: 30px;}
+    .bear{width: 800px; text-align: left; font-size: 4em; font-weight: 900; word-break: keep-all; font-family: 'Hahmlet-Black'; margin: 20px; }
+    .wolf {width: 700px; text-align: right; font-size: 4.5em; font-weight: 900; word-break: keep-all; font-family: 'Hahmlet-Black'; margin: 20px;
+    	padding-left: 280px; padding-top: 20px;}
+    .fox{width: 800px; text-align: left; font-size: 4em; font-weight: 900; word-break: keep-all; font-family: 'Hahmlet-Black'; margin: 20px; padding-top: 50px;}
+    .durumi {width: 700px; text-align: right; font-size: 4.2em; font-weight: 900; word-break: keep-all; font-family: 'Hahmlet-Black'; margin: 20px;
+    	padding-left: 275px; padding-top: 110px;}
+    h5 {width: 600px; text-align: left; font-size: 1.5em; margin: 20px; margin-left: 40px;}
+    .bear1{width: 600px; text-align: left; font-size: 1.5em; margin: 30px; margin-left: 25px;}
+    
+    .deer1 {width: 600px; text-align: right; font-size: 1.5em; margin: 20px; margin-left: 390px;}
+    .durumi1 {width: 600px; text-align: right; font-size: 1.5em; margin: 20px; margin-left: 390px; padding-top: 10px;}
+    h6 {width: 600px; text-align: left; font-size: 1.2em; margin: 20px; margin-left: 40px; word-break: keep-all; line-height: 35px; font-weight: 400; }
+    .deer2  {width: 600px; text-align: right; font-size: 1.1em; margin: 20px; margin-left: 40px; word-break: keep-all; line-height: 35px; font-weight: 400; margin-left: 390px;}
+    .durumi2  {width: 550px; text-align: right; font-size: 1.1em; margin: 20px; margin-left: 40px; word-break: keep-all; line-height: 35px; font-weight: 400; margin-left: 440px; padding-top: 10px;}
+    .bear2 {width: 530px; text-align: left; font-size: 1.2em; margin: 30px; margin-left: 25px; word-break: keep-all; line-height: 35px; font-weight: 400; }
+
+    .explain{width: 600px; text-align: left; font-size: 0.8em; margin: 20px; margin-left: 40px; word-break: keep-all; line-height: 20px; font-weight: 400; }
+
+
+
+    footer{text-align: center; padding-top: 20px; padding-bottom: 20px;}
+
+		.nav-1:hover{ color: lightgray; transition: all 0.8s;}
+		.main {width: 1000px; margin: auto; padding: 0px;}
+
+		#home2
+    	{background-image: url(home2.png); background-size: cover; width: 1000px; height:  700px ; margin: auto; background-repeat: no-repeat, repeat; background-position: center;}
+    	.home2text{text-align: center; font-size: 1.2em; width: 800px; word-break: keep-all; line-height: 20px;}
+    	#tiger
+    	{background-image: url(tiger.png); background-size: cover; width: 1000px; height:  700px ; margin: auto; background-repeat: no-repeat, repeat; background-position: center;}
+    	#deer
+    	{background-image: url(deer.png); background-size: cover; width: 1000px; height:  700px ; margin: auto; background-repeat: no-repeat, repeat; background-position: center;}
+    	#bear
+    	{background-image: url(bear.png); background-size: cover; width: 1000px; height:  700px ; margin: auto; background-repeat: no-repeat, repeat; background-position: center;}
+    	#wolf
+    	{background-image: url(wolf.png); background-size: cover; width: 1000px; height:  700px ; margin: auto; background-repeat: no-repeat, repeat; background-position: center;}
+    	#fox
+    	{background-image: url(fox.png); background-size: cover; width: 1000px; height:  700px ; margin: auto; background-repeat: no-repeat, repeat; background-position: center;}
+    	#durumi
+    	{background-image: url(durumi.png); background-size: cover; width: 1000px; height:  700px ; margin: auto; background-repeat: no-repeat, repeat; background-position: center; padding-bottom: 20px; margin-bottom: 50px;}
+
+
+    	.final{background-color: black; width: 1000px; display: block; margin-top: 100px; padding-top: 50px; padding-bottom: 90px;justify-content: center; margin: auto; }
+    	span.a {
+  display: inline-block; /* the default for span */
+  width: 130px;
+  height: 40px;
+  padding: 7px;
+  border-radius: 10px;
+  line-height: 40px; 
+  background-color: white; 
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  margin: 15px;
+  margin-right: 20px;
+  margin-left: 30px;
+  text-align: center;
+  justify-content: center;
+
+
+}
+
+	</style>
+</head>
+
+<body>
+<nav>
+    <ol id="a">
+    	<li>
+    		<a class="nav-1" href="#a">EX.EX.MUSEUM</a>
+    	</li>
+    	<li>
+    		<a class="nav-1" href="#b">ticket</a>
+    	</li>
+    	<li>
+    		<a class="nav-1" href="#c">about</a>
+    	</li>
+    	<li>
+    		<a class="nav-1" href="#d">fairy</a>
+    	</li>
+    	<li>
+    		<a class="nav-1" href="#e">must</a>
+    	</li>
+    	
+    </ol>
+ 	</nav>
+
+ <section id="a">
+ 	<div class="main">
+ 	<img style="width: 1000px; display: block; padding-top: 30px;padding-bottom: 50px; padding-right: 10px;"src="home.png">
+ 	</div>
+ </section>
+
+ <section id="b">
+ 	<div class="main">
+ 	<img style="width: 1000px; display: block;  "src="ticket.png">
+ 	</div>
+ </section>
+
+ <section id="c">
+ 	<div id="home2">
+ 		
+ 			<h1> 인간의 이기심으로 비롯된 생태계의 파괴와 오염으로 해마다 수만종의 생물들이 사라지고 있습니다.</h1>
+ 			<h2>.</h2>
+            <h2>어렸을 적 즐겨 읽었던 동화속에서 든든한 주인공으로 혹은 교활한 악역으로 등장하여 우리를 울고 웃게 해주며 교훈을 안겨주었던 동물들도 한반도에서 하나둘씩 자취를 감추고 있는 상황입니다.</h2>
+          </div>
+ 		
+ 	</div>
+ </section>
+ <section id="d">
+ 	<div class="main">
+ 	<img style="width: 1000px; display: block; padding-bottom: 30px; "src="fairy.png">
+ 	</div>
+ </section>
+
+ <section>
+ 	<div id="tiger">
+ 		<h4>떡 하나 주면 안잡아먹지</h4>
+ 		<h5>호랑이 ・ 멸종위기야생동물 1급</h5>
+ 		<h6>과거 한반도에 널리 서식하였지만 조선시대 말기에 총이 들여오면서부터 사냥이 시작되어 개체수가 감소하였다. 또한, 일제강점기 해수구제사업*으로 많은 호랑이가 사냥되며 개체수가 급감하여 현재는 절멸된 것으로 여겨진다.</h6>
+ 		<h6 class="explain"> * 일제강점기 시기 조선총독부가 "사람과 재산에 위해를 끼치는 해수(害獸)를 구제한다."라는 명분을 내세워 한반도 내 야생동물에 대한 체계적인 보전정책 없이 야생동물들의 퇴치와 포획을 주도 및 장려한 것을 이르는 표현 </h6>
+
+ </section>
+
+ <section>
+ 	<div id="deer">
+ 		<h4 class="deer">나무꾼님 사냥꾼이 자꾸 쫓아와요</h4>
+ 		<h5 class="deer1">대륙사슴 ・ 멸종위기야생동물 1급</h5>
+ 		<h6 class="deer2">동북아시아 전체에 널리 분포하고 있었으나, 밀렵과 서식처 파괴로 개체군이 빠르게 감소하고 있다. 조선시대부터 약재로 쓰이는 녹용과 녹각, 사슴피를 얻기 위한 사냥이 주요 위협요인으로 작용해왔으나, 대륙사슴 야생개체의 절멸은 1940년대 일제강점기의 해수구제 사업 이후 이다. 현재 남한에 서식하던 야생 대륙 사슴은 멸종된 상태이다.</h6>
+ </section>
+
+ <section>
+ 	<div id="bear">
+       <h4 class="bear">100일 동안 쑥과 마늘만을 먹고 버텨 사람이 되었고 그 이름을 웅녀로 칭한다.</h4>
+ 		<h5 class="bear1">반달가슴곰 ・ 멸종위기야생동물 1급</h5>
+ 		<h6 class="bear2">과거 한반도 전역에 분포할 정도로 많은 개체가 서식하였으나,웅담을 노린 밀렵과 일제강점기 해수구제 사업 등으로 1,000마리 넘는 반달가슴곰이 포획되며 개체수가 급격히 줄어들었다. 이후로도 서식처 단절과 불법거래 등으로 거의 멸종직전까지 개체수가 급감하였다. 하지만 2000년대 이후 활발히 진행된 복원사업으로 현재 지리산과 수도산 등에서 야생개체군이 서식하고 있다.</h6>
+ 		
+
+ </section>
+
+  <section>
+ 	<div id="wolf">
+ 		<h4 class="wolf">그런데 할머니, 입에는 왜이렇게 뾰족뾰족한 이가 나있어요?</h4>
+ 		<h5 class="deer1">늑대 ・ 멸종위기야생동물 1급</h5>
+ 		<h6 class="deer2">사람들과 농가에 피해를 준다는 이유로 이루어진 대대적인 포획과 사냥(game species), 먹이 생물종의 감소로 분포가 빠르게 감소하였다. 이후 1997년 서울대공원의 마지막 늑대가 폐사하며 더 이상 남한에서의 야생 늑대 서식은 발견되지 않고 있다.</h6>
+
+ </section>
+
+ <section>
+ 	<div id="fox">
+
+ 	<h4 class="fox">넌 내 입이 짧은 줄 알면서 왜 긴병에다 음식을 담아놓았니?</h4>
+ 		<h5 class="bear1">여우 ・ 멸종위기야생동물 1급</h5>
+ 		<h6 class="bear2">과거에는 한반도에서 제주도와 울릉도를 제외한 전역에 분포하였으나 서식지 파괴 및 쥐잡기 운동에 따른 2차 피해로 인해 야생개체가 멸종된 것으로 추측된다. 2012년부터 현재까지 소백산국립공원을 중심으로 복원 사업을 진행하여 야생에서 서식 중이다.</h6>
+ </section>
+
+ <section>
+ 	<div id="durumi">
+ 		<h4 class="durumi">넌 내 부리가 긴 줄 알면서 왜 접시에 음식을 담아 놓았니?</h4>
+ 		<h5 class="durumi1">두루미 ・ 멸종위기야생생물 1급</h5>
+ 		<h6 class="durumi2">두루미의 번식지의 경우 개발 등의 압력으로 서식지가 점차 감소하고 있다. 월동지의 경우 민간인통제지역의 면적 변화, 댐건설로 인한 잠자리 소실, 갯벌 매립, 해안 지역의 개발, 농경지의 감소 등이 두루미의 서식을 위협하고 있다.</h6>
+ </section>
+
+ <section id="e">
+ <div class="final">
+  		
+  		<span class="a">서식지파괴</span> <span class="a">포획과 사냥</span>
+  		<span class="a">먹이생물종감소</span> <span class="a">녹용</span>
+  		<span class="a">웅담</span> <span class="a">불법거래</span>
+  		<span class="a">갯벌매립</span> <span class="a">농경지감소</span>
+  		<span class="a">댐건설</span><span class="a">해안지역개발</span>
+
+  	   <h3>.</h3>
+  	   <h3>만약 신이 존재한다면 결코 구원받지 못할 생물이 있다. 바로 인간이다. 
+  	   인간은 자신의 욕심과 이기를 위해서라면 어떤 생물이든 가리지 않고 씨를 말려왔다.</h3>
+      </section>
+
+<section>
+	<div id="home2">
+	<h1>동화 속 동물들을 포함하여 현재 우리와 함께 살아 숨쉬는 자연의 존재들이 인간의 욕심으로 인해 역사속으로 영원히 사라지고 있습니다.</h1>
+	<h2>.</h2>
+	<h2> 이러한 끝이 없는 생태계 파괴의 상황에서 우리가 동물에게 요구하는 불필요한 욕심에 대해 한번쯤은 멈춰서서 생각해보는 시간이 필요하지 않을까요.</h2>
+</section>
+
+<section >
+ 	<div class="main">
+ 	<img style="width: 1000px; display: block;  "src="6.jpg">
+ 	</div>
+ </section>
+
+ <section>
+ 	<footer>
+ 		<p>EX.EX.MUSEUM</p>
+ 		<p>design by HyunJin Kim ⓒ 2022 All rights reserved</p>
+ 	</footer>
+ </section>
+
+
+
+</body>
+</html>
